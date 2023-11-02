@@ -4,9 +4,11 @@ function Profile() {
   return (
     <div className='profile-container'>
       <p className='profile-title'>Aleksander White</p>
-      <p className='profile-tagline'><i>Empowering dreams, self-taught and web-woven.</i></p>
       <br></br>
+      <p className='profile-tagline'><i>Empowering dreams, self-taught and web-woven.</i></p>
       <div className='paragraph-container'>
+        <br></br>
+        <br></br>
         <p>
             Hey there, I'm Alek, a self-taught web developer on a mission to bring creative ideas to life through the power of code. From diving into HTML and CSS tutorials in my spare time to now crafting dynamic websites and web applications, my journey has been a thrilling adventure in the digital realm.
         </p>

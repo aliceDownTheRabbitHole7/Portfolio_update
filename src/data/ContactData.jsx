@@ -3,7 +3,7 @@ import * as FaIcons from 'react-icons/fa6'
 const ContactData = [
     {
         class: 'phone',
-        text: '(779)255-0508',
+        text: '(779) 255-0508',
         icon: <FaIcons.FaPhone className='icon'/>
     },
     {
