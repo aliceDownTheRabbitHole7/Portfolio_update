@@ -1,0 +1,30 @@
+import React from 'react'
+
+function Profile() {
+  return (
+    <div className='profile-container'>
+      <p className='profile-title'>Aleksander White</p>
+      <p className='profile-tagline'><i>Empowering dreams, self-taught and web-woven.</i></p>
+      <br></br>
+      <div className='paragraph-container'>
+        <p>
+            Hey there, I'm Alek, a self-taught web developer on a mission to bring creative ideas to life through the power of code. From diving into HTML and CSS tutorials in my spare time to now crafting dynamic websites and web applications, my journey has been a thrilling adventure in the digital realm.
+        </p>
+        <br></br>
+        <p>
+            Armed with an insatiable curiosity and a love for problem-solving, I've mastered various programming languages and frameworks, building everything from responsive websites to interactive web apps that push the boundaries of user experience.
+        </p>
+        <br></br>
+        <p>
+            When I'm not engrossed in my coding projects, you can find me exploring the latest web development trends, enjoying a cup of coffee, or volunteering my skills to help non-profits and small businesses establish their online presence.
+        </p>
+        <br></br>
+        <p>
+        My goal is to continually learn and grow as a web developer, turning visions into reality and creating a more dynamic and connected digital world. 
+        </p>
+      </div>
+    </div>
+  )
+}
+
+export default Profile

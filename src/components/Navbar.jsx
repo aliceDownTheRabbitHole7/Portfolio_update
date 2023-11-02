@@ -13,7 +13,7 @@ function Navbar() {
 
     const linkMap = NavbarData.map((item, i) => {
         return (
-            <Link to={item.path} key={i}>
+            <Link to={item.path} key={i} className='nav-link' onClick={showNav}>
                 {item.icon}
                 <span>{item.title}</span>
             </Link>
@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <header>
-        <h3>Logo</h3>
+        <h3 className='logo'>AW</h3>
         <nav ref={navRef}>
             <div>
                 {linkMap}
