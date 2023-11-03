@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+:root {
+    --a-text-color: rgb(55, 66, 96);
+}
+
+.profile {
+    grid-column: 2 / 4;
+   max-width: 100vw;
+   display: flex;
+   justify-content: center;
+   padding-right: 2rem;
+}
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+} 
+.profile-title {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+    color: var(--a-text-color)
+}
+.profile-tagline {
+    font-size: 16px;
+    font-family:'Philosopher', sans-serif;
+}
+.paragraph-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.paragraph-container p {
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .profile {
+        padding-right: 0.5rem;
+    }
+    .paragraph-container {
+        padding-bottom: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 911px) {
+    .phone, .email, .location {
+        font-size: medium;
+    }
+}

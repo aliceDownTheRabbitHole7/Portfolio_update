@@ -1,5 +1,6 @@
 import React from "react";
 import ContactData from '../../../data/ContactData'
+import './Contact.css'
 
 function Contact() {
   const contactMap = ContactData.map((data, i) => {
