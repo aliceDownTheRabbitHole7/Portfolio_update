@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { FaTimes, FaBars } from 'react-icons/fa'
-import NavbarData from '../data/NavBarData'
+import NavbarData from '../../data/NavBarData'
 import './Navbar.css'
 
 function Navbar() {

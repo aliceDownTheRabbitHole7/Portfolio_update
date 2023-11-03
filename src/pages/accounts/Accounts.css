@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+:root {
+    --a-text-color: rgb(55, 66, 96);
+}
+.accounts-page {
+    min-height: 89vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accounts-page h1 {
+    font-size: 36px;
+    margin-top: 1rem;
+    font-family: 'Philosopher', sans-serif;
+    color: var(--a-text-color);
+}
+
+.accounts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.account-container {
+    margin: 2rem;
+}
+.account-container:hover {
+    transform: scale(1.03);
+    transition: 1s;
+    cursor: pointer;
+}
+.account-container img {
+    border-radius: 3.3rem;
+    box-shadow: 3px 3px 7px slategray;
+}
+
+.account-container h2 {
+    color: var(--a-text-color);
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+ 

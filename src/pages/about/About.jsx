@@ -4,7 +4,7 @@ import Contact from './contact/Contact'
 import ProfessionalPicture from './picture/ProfessionalPicture'
 import Profile from './profile/Profile'
 import './About.css'
-
+ 
 function About() {
   
 
