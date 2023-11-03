@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Racing+Sans+One&display=swap");
+
+:root {
+  --home-bg: rgb(0, 6, 22);
+  --text-color: #eee;
+}
+
+.home-container {
+  height: 89vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--home-bg);
+}
+.home-container p {
+  font-size: 10rem;
+  position: relative;
+  font-family: "Cinzel Decorative", sans-serif;
+  letter-spacing: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--home-bg),
+    var(--text-color),
+    var(--home-bg)
+  );
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: text-shine 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes text-shine {
+  0% {
+    background-position: -500%;
+  }
+  50% {
+    background-position: 500%;
+  }
+  100% {
+    background-position: -500%;
+  }
+}
+
+@media screen and (max-width: 911px) {
+    .home-container p {
+        font-size: 5rem;
+    }
+}
+

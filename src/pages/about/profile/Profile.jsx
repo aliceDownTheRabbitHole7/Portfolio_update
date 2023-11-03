@@ -5,7 +5,7 @@ function Profile() {
     <div className='profile-container'>
       <p className='profile-title'>Aleksander White</p>
       <br></br>
-      <p className='profile-tagline'><i>Empowering dreams, self-taught and web-woven.</i></p>
+      <p className='profile-tagline'><i>"Sometimes, it's the very people who no one imagines anything of who do the things no one can imagine."</i></p>
       <div className='paragraph-container'>
         <br></br>
         <br></br>
