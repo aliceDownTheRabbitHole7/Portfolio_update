@@ -68,6 +68,11 @@ header .nav-btn {
   font-size: 2rem;
 }
 
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
 /* For smaller screens  */
 
 @media only screen and (max-width: 1024px) {
@@ -94,7 +99,7 @@ header .nav-btn {
   header .responsive-nav {
     transform: none;
   }
-  nav .nav-close-btn {
+  nav .nav-close-btn { 
     position: absolute;
     top: 2rem;
     right: 2rem;
